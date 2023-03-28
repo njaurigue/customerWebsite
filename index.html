@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" id="main">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width,intial-scale=1.0,viewport-fit=cover"/>
@@ -10,48 +10,89 @@
     </head>
     <body>
         <div class="top">
-                <h1 class="title">
-                    Noah Jaurigue | Customers
-                </h1>
+                <button onclick="addCard()">
+                    <h1 class="title">
+                        Noah Jaurigue | Customers
+                    </h1>
+                </button>
                 <input class="search" id="search" type="text" value="Search" onkeyup="search()" onfocus="this.value=''; this.style='color: Black;'">
                 <h2 class="table" style="color:white; font-size: 15px;">
                     View Complete Table >
                 </h2>
         </div>
-        <div class="buff" style="height:15vh;"></div>
-        <div class="main">
-            <span class="card" id="1">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                <h3 class="name" id="n1">
-                    Noah Jaurigue
-                </h3>
-                <h4 class="birthday" id="b1">
-                    Birthday: 8/15/2003
-                </h4>
-                <h4 class="color" id="c1">
-                    Favorite Color: Red
-                </h4>
-            </span>
-            <span class="card" id="2">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                
-            </span>
-            <span class="card" id="3">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                
-            </span>
-            <span class="card" id="4">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                
-            </span>
-            <span class="card" id="5">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                
-            </span>
-            <span class="card" id="6">
-                <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
-                
-            </span>
+        <div class="main" id="main">
+            <!--
+                <span class="card" id="1">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    <h2 class="name" id="n1">
+                        Noah Jaurigue
+                    </h2>
+                    <h4 class="birthday" id="b1">
+                        Birthday: 8/15/2003
+                    </h4>
+                    <h4 class="color" id="c1">
+                        Favorite Color: Red
+                    </h4>
+                    <span>
+                        <h3>Pets</h3>
+                        <label>
+                            <input type="radio" value="Name" name="type" checked>
+                            Name
+                        </label>
+                        <label>
+                            <input type="radio" value="Type" name="type">
+                            Type
+                        </label>
+                        <label>
+                            <input type="radio" value="Up" name="order" checked>
+                            Up
+                        </label>
+                        <label>
+                            <input type="radio" value="Down" name="order">
+                            Down
+                        </label>
+                    </span>
+                    <div class="petsection">
+                        <div class="pet">
+                            <h2 class="petdata" style="display:inline;">Name</h2>
+                            <h3 class="petdata" style="display:inline;">Type</h3>
+                        </div>
+                        <div class="pet">
+                            <h2 class="petdata" style="display:inline;">Name</h2>
+                            <h3 class="petdata" style="display:inline;">Type</h3>
+                        </div>
+                        <div class="pet">
+                            <h2 class="petdata" style="display:inline;">Name</h2>
+                            <h3 class="petdata" style="display:inline;">Type</h3>
+                        </div>
+                    </div>
+                </span>
+            -->
+
+
+            <!--
+                <span class="card" id="2">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    
+                </span>
+                <span class="card" id="3">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    
+                </span>
+                <span class="card" id="4">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    
+                </span>
+                <span class="card" id="5">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    
+                </span>
+                <span class="card" id="6">
+                    <img src="images/profile.png" alt="profilePic" style="height: 150px; width: 150px; margin-top: 50px;">
+                    
+                </span>
+            -->
+
         </div>
         <div class="footer">
             <a href="https://github.com/njaurigue/customerWebsite" target="_blank">

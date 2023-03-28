@@ -2,6 +2,7 @@ html{
     height: 100vh;
     width: 100vw;
     overflow-y: hidden;
+    overflow-x: scroll;
 }
 
 body{
@@ -18,7 +19,6 @@ body{
 /*-------TOP-------*/
 
 .top{
-    border: 2px solid red;
     height: 10vh;
     width: 100vw;
     margin: 0;
@@ -47,20 +47,18 @@ body{
     margin: 0 auto;
     padding: 0 20px;
 
-    display: block;
     border-radius: 30px;
 }
 
 .table{
     position: absolute;
-    right: 5vw;
+    right: 4vw;
 }
 
 /*-------MAIN-------*/
 
 .main{
-    border: 2px solid yellow;
-    height: 80vh;
+    height: 100vh;
     width: 200vw;
     display: flex;
     flex-direction: row;
@@ -72,9 +70,8 @@ body{
 }
 
 .card{
-    border: 1px solid orange;
-    height: 80%;
-    width: 40%;
+    height: 60%;
+    width: min(350px, 20%);
     border-radius: 60px;
     margin: 0 20px;
     background-color: white;
@@ -84,11 +81,44 @@ body{
     align-items: center;
 }
 
+/*-------PETS-------*/
+.petsection{
+    border-radius: 60px;
+    height: 170px;
+    width: 80%;
+    margin-top: 5px;
+    padding: 10px 30px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    display: block;
+    margin: auto;
+}
+
+.petsection::-webkit-scrollbar{
+    display: none;
+}
+
+.pet{
+    border: 2px solid #b4b4b4;
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.petdata{
+    margin: 0 30px;
+}
+
 /*-------FOOTER-------*/
 
 .footer{
-    border: 1px solid green;
-    height: 5vh;
+    height: 10vh;
     width: 100vw;
     margin: 0;
     padding: 0;
