@@ -1,0 +1,51 @@
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+}
+
+body{
+   background-color: #006AC6; 
+   height: 100vh;
+   width: 100vw;
+   margin: 0;
+   padding: 0;
+}
+
+.top{
+    border: 1px solid red;
+    height: 10vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    margin: 0; 
+
+    position: absolute; 
+    left: 4vw;
+}
+
+.search{
+    border: 3px solid #b4b4b4;
+    color:#b4b4b4;
+    height: 40%;
+    width: 25vw;
+    margin: 5vw;
+    padding: 0 20px;
+
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+.table{
+    position: absolute;
+    right: 5vw;
+}
