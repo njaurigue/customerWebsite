@@ -51,9 +51,19 @@ body{
     border-radius: 30px;
 }
 
-.table{
-    position: absolute;
-    right: 4vw;
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b4b4b4;
+    text-decoration: none;
 }
 
 /*-------MAIN-------*/
@@ -73,6 +83,7 @@ body{
 .card{
     height: 60%;
     width: min(350px, 20%);
+    border: 4px solid #b4b4b4;
     border-radius: 60px;
     margin: 0 20px;
     background-color: white;
@@ -102,22 +113,6 @@ body{
 
 .petsection::-webkit-scrollbar{
     display: none;
-}
-
-.pet{
-    border: 2px solid #b4b4b4;
-    border-radius: 30px;
-    height: 60px;
-    width: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px auto;
-}
-
-.petdata{
-    margin: 0 30px;
 }
 
 /*-------FOOTER-------*/
