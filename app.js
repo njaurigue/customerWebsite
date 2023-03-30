@@ -118,6 +118,7 @@ function addCards(ids){
             document.getElementById(id).style.cssText = `
                 height: 70%;
                 width: 350px;
+                border: 4px solid #b4b4b4;
                 border-radius: 60px;
                 margin: 0 20px;
                 background-color: white;
@@ -332,17 +333,3 @@ function dateSort(a,b){
         return 0;
     }
 }
-
-//Scroll Behavior
-/*var item = document.getElementById("main");
-
-window.addEventListener("wheel", function (e) {
-    console.log('printing');
-    console.log(e.deltaY);
-    if (e.deltaY > 0) {
-        item.scrollLeft += 75;
-    } else {
-        item.scrollLeft -= 75;
-    }
-    console.log(item.scrollLeft);
-});*/

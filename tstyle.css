@@ -16,20 +16,7 @@ body{
    align-items: center;
 }
 
-a:link{
-    color: white;
-    text-decoration: none;
-}
-
-a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #b4b4b4;
-    text-decoration: none;
-}
+/*-------MAIN-------*/
 
 .table{
     height: 80;
@@ -68,6 +55,8 @@ a:hover{
     grid-column: 2 / 4;
 }
 
+/*-------PETS-------*/
+
 .petsection{
     border-radius: 30px;
     height: 50%;
@@ -86,4 +75,21 @@ a:hover{
 
 .petdata{
     margin: 0 5px;
+}
+
+/*-------LINKS-------*/
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b4b4b4;
+    text-decoration: none;
 }
