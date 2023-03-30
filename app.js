@@ -4,7 +4,7 @@
  * @return - None
  */
 function search(){
-    fetch('./data.JSON')
+    fetch('./data/data.JSON')
     .then((response) => response.json())
     .then((json) => {
         //Filter numerical values
@@ -51,7 +51,7 @@ function addCards(ids){
         ids = [1,2,3,4,5,6];
     }
     document.getElementById("main").innerHTML = ''; //Clear page
-    fetch('./data.JSON')
+    fetch('./data/data.JSON')
     .then((response) => response.json())
     .then((json) => {
         //Sort Customers by Birthday
@@ -156,7 +156,7 @@ function addCards(ids){
  */
 function updatePets(id){
     document.getElementById("ps" + id).innerHTML = ''; //Clear page
-    fetch('./data.JSON')
+    fetch('./data/data.JSON')
     .then((response) => response.json())
     .then((json) => {
         var plist;
@@ -219,7 +219,7 @@ function updatePets(id){
  */
 function fillTable(){
     document.getElementById("table").innerHTML = ''; //Clear page
-    fetch('./data.JSON')
+    fetch('./data/data.JSON')
     .then((response) => response.json())
     .then((json) => {
         //Sort Customers by Birthday
