@@ -1,4 +1,5 @@
 html{
+    font-family: 'Poppins', sans-serif;
     height: 100vh;
     width: 100vw;
     overflow-y: hidden;
@@ -59,7 +60,7 @@ body{
 
 .main{
     height: 100vh;
-    width: 200vw;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -134,4 +135,3 @@ body{
     align-items: center;
     justify-content: center;
 }
- 
